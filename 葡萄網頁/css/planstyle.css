@@ -1,0 +1,53 @@
+
+h1{
+    font-size:80px;
+    color: #fff;
+}
+h3{
+    color: #fff;
+    padding:10px 0 30px 50px;
+}
+.graps-normal,.graps-ice{
+    display: flex;
+    justify-content: center;
+}
+
+.graps-content p{
+    color: #fff;
+    font-size: 20px;
+    margin-left: 30px;
+    margin-right: 10px;
+}
+.graps-normal img,.graps-ice img{
+    width:250px;
+    height: 250px;
+    border-radius: 50%;
+    padding: 40px;
+}
+.add-cart-content label{
+    color: #fff;
+    margin-left: 30px;
+    font-size: 20px;
+}
+.img-graps{
+    display: flex;
+    border:3px white solid;
+    margin: 50px;
+    cursor: pointer;
+    border-radius: 50px;
+}
+.img-graps:hover{
+    border:5px aquamarine solid;
+}
+.addCart{
+    width: 100%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+#add-cart{
+    cursor: pointer;
+    width: 100px;
+    height: 50px;
+    border-radius: 30px;
+}
